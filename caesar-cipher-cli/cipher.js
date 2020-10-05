@@ -1,4 +1,4 @@
-const caesar = (str, shift) => {
+module.exports = (str, shift) => {
     return str.split('').map(letter => {
         let text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         let textStr = text.split('');
@@ -22,5 +22,5 @@ const caesar = (str, shift) => {
     }).join('');
 };
 
-console.log(caesar('ABdexYZ', 3));
-console.log('ABdexYZ');
+// console.log(caesar('ABdexYZ', 3));
+// console.log('ABdexYZ');
