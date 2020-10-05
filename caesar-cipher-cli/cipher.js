@@ -1,5 +1,6 @@
 module.exports = (str, shift) => {
-    return str.split('').map(letter => {
+    let arr = str.split('');
+    return arr.map(letter => {
         let text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         let textStr = text.split('');
         let upperCaseLetter = letter.toUpperCase();
