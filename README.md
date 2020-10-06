@@ -11,3 +11,7 @@ npm install
 
 ## Example
 $ node my_caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
+
+### Details
+For command-line arguments was used:
+[https://www.npmjs.com/package/commander]
